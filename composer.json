@@ -1,5 +1,10 @@
 {
     "name": "myown/blog",
     "description": "This is for to crate a blog",
-    "require": {}
+    "require": {},
+     "autoload": {
+            "psr-4": {
+                "myown\\blog": "src/"
+            }
+        }
 }
