@@ -1,6 +1,6 @@
 <?php
 
-namespace CT\Blog;
+namespace myown\blog;
 
 use Illuminate\Support\Facades\File;  
 use Illuminate\Support\Facades\Lang;
@@ -9,12 +9,12 @@ use Illuminate\Http\Request;
 use Illuminate\Validation\Rules;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
-use CT\Blog\blog_category;
+use myown\blog\blog_category;
 //use App\Http\Requests;
-use CT\Blog\author;
-use CT\Blog\blog;
-use CT\Blog\type;
-use CT\Blog\SEO;
+use myown\blog\author;
+use myown\blog\blog;
+use myown\blog\type;
+use myown\blog\SEO;
 use Redirect;
 
 
