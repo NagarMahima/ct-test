@@ -4,7 +4,7 @@
     "require": {},
      "autoload": {
             "psr-4": {
-                "myown\\blog": "src/"
+                "myown\\blog\\": "src/"
             }
         }
 }
