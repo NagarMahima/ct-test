@@ -1,6 +1,6 @@
 <?php
 
-namespace CT\Blog;
+namespace myown\blog;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,7 @@ class BlogServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('CT\Blog\BlogController');
+        $this->app->make('myown\blog\BlogController');
         $this->loadViewsFrom(__DIR__.'/views','Blog');
         $this->loadMigrationsFrom(__DIR__.'migrations');
     }
